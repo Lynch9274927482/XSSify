@@ -277,16 +277,16 @@ Results include:
 ## Screenshots
 
 ### Startup
-![Screenshot](startup1.png)
-![Screenshot](startup2.png)
+![Screenshot](images/startup1.png)
+![Screenshot](images/startup2.png)
 
 ## Existing Scripts
 
 ### kitty.js (harmless)
-![Screenshot](Screenshot.png)
+![Screenshot](images/Screenshot.png)
 
 ### mock.js (harmful)
-![Screenshot](Screenshot2.png)
+![Screenshot](images/Screenshot2.png)
 
 ## Technical Details
 
