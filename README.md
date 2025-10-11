@@ -136,14 +136,12 @@ Results include:
 
 ## Screenshots
 
-### Scan Results 1
+### kitty.js (harmless)
 ![Screenshot](Screenshot.png)
 
-### Scan Results 2
+### mock.js (harmful)
 ![Screenshot](Screenshot2.png)
 
-### Scan Results 3
-![Screenshot](Screenshot3.png)
 
 ## Technical Details
 
