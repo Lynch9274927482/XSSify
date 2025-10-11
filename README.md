@@ -1,5 +1,5 @@
 ```markdown
-# XSS!FY - Advanced XSS Scanning Framework
+# XSS!FY
 
 ## Overview
 
@@ -136,13 +136,13 @@ Results include:
 
 ## Screenshots
 
-### Vulnerability Detection
+### Scan Results 1
 ![Screenshot](Screenshot.png)
 
-### Interactive Menu
+### Scan Results 2
 ![Screenshot](Screenshot2.png)
 
-### Scan Results
+### Scan Results 3
 ![Screenshot](Screenshot3.png)
 
 ## Technical Details
@@ -224,14 +224,10 @@ Potential improvements for future versions:
 - Authenticated scanning support
 
 ## Author
-
-Security research tool for professional use.
+S-K1DD13
+Security research tool for professional use only. Don't be stupid.
 
 ## Version
 
 Current Version: 1.0
-
-## License
-
-Use responsibly and ethically. Obtain proper authorization before testing.
 ```
