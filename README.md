@@ -278,7 +278,7 @@ Planned:
 
 S-K1DD13
 
-Security research tool for pros only. Don’t be stupid.
+Security research tool. Don’t be stupid.
 
 ## Version
 
