@@ -1,4 +1,3 @@
-```markdown
 # XSS!FY
 
 ## Overview
@@ -46,20 +45,161 @@ Detected vulnerabilities are classified by reflection behavior:
 - **PARTIAL**: Fragments of payload appear in response
 - **CASE_INSENSITIVE**: Payload appears with case variations
 
-## Installation
+## How to Install
 
 ### Prerequisites
 
+- Python 3.7 or higher
+- pip (Python package installer)
+- Internet connection for installing dependencies
+
+### Step 1: Clone the Repository
+
 ```bash
-pip install requests beautifulsoup4 flask colorama
+git clone https://github.com/Lynch9274927482/XSSify.git
+cd XSSify
+```
+
+### Step 2: Install Dependencies
+
+#### Option A: Automatic Installation (Recommended)
+
+Run the automated installer script:
+
+```bash
+python install.py
+```
+
+The installer will:
+- Check if pip is installed
+- Automatically install all required dependencies
+- Verify successful installation
+- Provide confirmation when ready to use
+
+#### Option B: Manual Installation with requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Option C: Install Dependencies Individually
+
+```bash
+pip install requests beautifulsoup4 flask colorama lxml
+```
+
+### Step 3: Verify Installation
+
+Check if all dependencies are installed correctly:
+
+```bash
+python -c "import requests, bs4, flask, colorama; print('All dependencies installed successfully!')"
+```
+
+### Step 4: Run XSS!FY
+
+```bash
+python xssify.py
+```
+
+The script includes built-in dependency checking. If any packages are missing, it will automatically detect and offer to install them.
+
+### Installation on Different Operating Systems
+
+#### Linux/Ubuntu
+
+```bash
+# Install Python 3 and pip if not already installed
+sudo apt update
+sudo apt install python3 python3-pip git
+
+# Clone and install XSS!FY
+git clone https://github.com/Lynch9274927482/XSSify.git
+cd XSSify
+python3 install.py
+```
+
+#### Windows
+
+```bash
+# Ensure Python is installed from python.org
+# Open Command Prompt or PowerShell
+
+git clone https://github.com/Lynch9274927482/XSSify.git
+cd XSSify
+python install.py
+```
+
+#### macOS
+
+```bash
+# Install Python 3 via Homebrew if needed
+brew install python3 git
+
+# Clone and install XSS!FY
+git clone https://github.com/Lynch9274927482/XSSify.git
+cd XSSify
+python3 install.py
+```
+
+### Troubleshooting Installation
+
+**Issue: pip not found**
+```bash
+# Linux/macOS
+sudo apt install python3-pip  # Ubuntu/Debian
+brew install python3          # macOS
+
+# Windows
+python -m ensurepip --upgrade
+```
+
+**Issue: Permission denied**
+```bash
+# Linux/macOS - use --user flag
+pip install --user -r requirements.txt
+
+# Or use virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+```
+
+**Issue: SSL Certificate errors**
+```bash
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
+```
+
+### Virtual Environment (Recommended)
+
+Using a virtual environment keeps dependencies isolated:
+
+```bash
+# Create virtual environment
+python3 -m venv xssify-env
+
+# Activate virtual environment
+source xssify-env/bin/activate  # Linux/macOS
+xssify-env\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the tool
+python xssify.py
+
+# Deactivate when done
+deactivate
 ```
 
 ### Dependencies
 
-- requests - HTTP library
-- beautifulsoup4 - HTML parsing
-- flask - Web interface
-- colorama - Terminal color output
+- **requests** (>=2.31.0) - HTTP library
+- **beautifulsoup4** (>=4.12.0) - HTML parsing
+- **flask** (>=3.0.0) - Web interface
+- **colorama** (>=0.4.6) - Terminal color output
+- **lxml** (>=4.9.0) - XML/HTML parser (BeautifulSoup backend)
 - urllib.parse - URL manipulation
 - threading - Concurrent execution
 - concurrent.futures - Thread pool management
@@ -142,7 +282,6 @@ Results include:
 ### mock.js (harmful)
 ![Screenshot](Screenshot2.png)
 
-
 ## Technical Details
 
 ### Session Management
@@ -223,9 +362,9 @@ Potential improvements for future versions:
 
 ## Author
 S-K1DD13
+
 Security research tool for professional use only. Don't be stupid.
 
 ## Version
 
 Current Version: 1.0
-
