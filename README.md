@@ -2,7 +2,7 @@
 
 ## Overview
 
-XSS!FY finds XSS. Simple. Fast. Built for people who actually test stuff. It scans apps, injects payloads, and tells you what’s dangerous. Not a toy.
+XSS!FY finds XSS. Simple. Fast. Built for people who actually test stuff. It scans sites, injects payloads, and tells you what’s dangerous. Not a toy.
 
 ## Features
 
