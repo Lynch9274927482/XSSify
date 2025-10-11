@@ -280,6 +280,8 @@ Results include:
 ![Screenshot](startup1.png)
 ![Screenshot](startup2.png)
 
+## Existing Scripts
+
 ### kitty.js (harmless)
 ![Screenshot](Screenshot.png)
 
