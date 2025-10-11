@@ -276,6 +276,10 @@ Results include:
 
 ## Screenshots
 
+### Startup
+![Screenshot](startup1.png)
+![Screenshot](startup2.png)
+
 ### kitty.js (harmless)
 ![Screenshot](Screenshot.png)
 
