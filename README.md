@@ -47,7 +47,6 @@ Finds injection points via:
 ```bash
 git clone https://github.com/Lynch9274927482/XSSify.git
 cd XSSify
-python install.py
 ```
 
 If you prefer manual:
